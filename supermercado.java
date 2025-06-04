@@ -16,7 +16,7 @@ public class supermercado {
     public void setAlimento(alimento alimento) {
         this.alimento = alimento;
     }
-
+//aca tambien pedi ayuda de como mostrar las cosas porque no tenia idea eso de != null, o no se si lo dimos no me acuerdo
     public void mostrarProductos() {
         System.out.println("\n --Productos en el supermercado--");
         if (electronico != null) electronico.mostrarInformacion();
